@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-view {
+  padding: 0 6px;
+}
+
+.btn-view:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.movie-title-list-view {
+  width: 70%;
+}
+
+.list-group-item {
+  color: red;
+  display: flex;
+  align-items: center;
+}
